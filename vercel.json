@@ -18,7 +18,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/cliente-salud/index.html"
+      "destination": "/index.html" 
     }
   ]
 }
