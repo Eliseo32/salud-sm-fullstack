@@ -1,0 +1,13 @@
+{
+  "name": "salud-sm-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "api",
+    "cliente-salud"
+  ],
+  "scripts": {
+    "build:api": "npm install --prefix api",
+    "build:client": "npm install --prefix cliente-salud && npm run build --prefix cliente-salud"
+  }
+}

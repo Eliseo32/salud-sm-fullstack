@@ -4,7 +4,9 @@
     {
       "src": "cliente-salud/package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
+      "config": {
+        "distDir": "dist"
+      }
     },
     {
       "src": "api/index.js",
@@ -18,7 +20,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/index.html" 
+      "destination": "/cliente-salud/dist/index.html"
     }
   ]
 }
