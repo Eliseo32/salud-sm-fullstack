@@ -20,7 +20,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/cliente-salud/dist/index.html"
+      "destination": "/index.html"
     }
   ]
 }
